@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Built-By: SACHIN
+Build-Jdk: 14.0.2
+Class-Path: lib/spark-core_2.12-3.0.1.jar lib/paranamer-2.8.jar lib/avro
+ -1.8.2.jar lib/jackson-core-asl-1.9.13.jar lib/jackson-mapper-asl-1.9.1
+ 3.jar lib/commons-compress-1.8.1.jar lib/xz-1.5.jar lib/avro-mapred-1.8
+ .2-hadoop2.jar lib/avro-ipc-1.8.2.jar lib/commons-codec-1.9.jar lib/chi
+ ll_2.12-0.9.5.jar lib/kryo-shaded-4.0.2.jar lib/minlog-1.3.0.jar lib/ob
+ jenesis-2.5.1.jar lib/chill-java-0.9.5.jar lib/xbean-asm7-shaded-4.15.j
+ ar lib/hadoop-client-2.7.4.jar lib/hadoop-common-2.7.4.jar lib/commons-
+ cli-1.2.jar lib/xmlenc-0.52.jar lib/commons-httpclient-3.1.jar lib/comm
+ ons-io-2.4.jar lib/commons-collections-3.2.2.jar lib/jetty-sslengine-6.
+ 1.26.jar lib/jsp-api-2.1.jar lib/commons-lang-2.6.jar lib/commons-confi
+ guration-1.6.jar lib/commons-digester-1.8.jar lib/commons-beanutils-1.7
+ .0.jar lib/protobuf-java-2.5.0.jar lib/gson-2.2.4.jar lib/hadoop-auth-2
+ .7.4.jar lib/httpclient-4.2.5.jar lib/httpcore-4.2.4.jar lib/apacheds-k
+ erberos-codec-2.0.0-M15.jar lib/apacheds-i18n-2.0.0-M15.jar lib/api-asn
+ 1-api-1.0.0-M20.jar lib/api-util-1.0.0-M20.jar lib/curator-client-2.7.1
+ .jar lib/htrace-core-3.1.0-incubating.jar lib/hadoop-hdfs-2.7.4.jar lib
+ /jetty-util-6.1.26.jar lib/xercesImpl-2.9.1.jar lib/xml-apis-1.3.04.jar
+  lib/hadoop-mapreduce-client-app-2.7.4.jar lib/hadoop-mapreduce-client-
+ common-2.7.4.jar lib/hadoop-yarn-client-2.7.4.jar lib/hadoop-yarn-serve
+ r-common-2.7.4.jar lib/hadoop-mapreduce-client-shuffle-2.7.4.jar lib/ha
+ doop-yarn-api-2.7.4.jar lib/hadoop-mapreduce-client-core-2.7.4.jar lib/
+ hadoop-yarn-common-2.7.4.jar lib/jaxb-api-2.2.2.jar lib/stax-api-1.0-2.
+ jar lib/jackson-jaxrs-1.9.13.jar lib/jackson-xc-1.9.13.jar lib/hadoop-m
+ apreduce-client-jobclient-2.7.4.jar lib/hadoop-annotations-2.7.4.jar li
+ b/spark-launcher_2.12-3.0.1.jar lib/spark-kvstore_2.12-3.0.1.jar lib/le
+ veldbjni-all-1.8.jar lib/jackson-core-2.10.0.jar lib/jackson-annotation
+ s-2.10.0.jar lib/spark-network-common_2.12-3.0.1.jar lib/spark-network-
+ shuffle_2.12-3.0.1.jar lib/spark-unsafe_2.12-3.0.1.jar lib/activation-1
+ .1.1.jar lib/curator-recipes-2.7.1.jar lib/curator-framework-2.7.1.jar 
+ lib/guava-16.0.1.jar lib/zookeeper-3.4.14.jar lib/audience-annotations-
+ 0.5.0.jar lib/javax.servlet-api-3.1.0.jar lib/commons-lang3-3.9.jar lib
+ /commons-math3-3.4.1.jar lib/commons-text-1.6.jar lib/jsr305-3.0.0.jar 
+ lib/slf4j-api-1.7.30.jar lib/jul-to-slf4j-1.7.30.jar lib/jcl-over-slf4j
+ -1.7.30.jar lib/log4j-1.2.17.jar lib/slf4j-log4j12-1.7.30.jar lib/compr
+ ess-lzf-1.0.3.jar lib/snappy-java-1.1.7.5.jar lib/lz4-java-1.7.1.jar li
+ b/zstd-jni-1.4.4-3.jar lib/RoaringBitmap-0.7.45.jar lib/shims-0.7.45.ja
+ r lib/commons-net-3.1.jar lib/scala-xml_2.12-1.2.0.jar lib/scala-librar
+ y-2.12.10.jar lib/scala-reflect-2.12.10.jar lib/json4s-jackson_2.12-3.6
+ .6.jar lib/json4s-core_2.12-3.6.6.jar lib/json4s-ast_2.12-3.6.6.jar lib
+ /json4s-scalap_2.12-3.6.6.jar lib/jersey-client-2.30.jar lib/jakarta.ws
+ .rs-api-2.1.6.jar lib/jakarta.inject-2.6.1.jar lib/jersey-common-2.30.j
+ ar lib/jakarta.annotation-api-1.3.5.jar lib/osgi-resource-locator-1.0.3
+ .jar lib/jersey-server-2.30.jar lib/jersey-media-jaxb-2.30.jar lib/jaka
+ rta.validation-api-2.0.2.jar lib/jersey-container-servlet-2.30.jar lib/
+ jersey-container-servlet-core-2.30.jar lib/jersey-hk2-2.30.jar lib/hk2-
+ locator-2.6.1.jar lib/aopalliance-repackaged-2.6.1.jar lib/hk2-api-2.6.
+ 1.jar lib/hk2-utils-2.6.1.jar lib/javassist-3.25.0-GA.jar lib/netty-all
+ -4.1.47.Final.jar lib/stream-2.9.6.jar lib/metrics-core-4.1.1.jar lib/m
+ etrics-jvm-4.1.1.jar lib/metrics-json-4.1.1.jar lib/metrics-graphite-4.
+ 1.1.jar lib/metrics-jmx-4.1.1.jar lib/jackson-databind-2.10.0.jar lib/j
+ ackson-module-scala_2.12-2.10.0.jar lib/jackson-module-paranamer-2.10.0
+ .jar lib/ivy-2.4.0.jar lib/oro-2.0.8.jar lib/pyrolite-4.30.jar lib/py4j
+ -0.10.9.jar lib/spark-tags_2.12-3.0.1.jar lib/commons-crypto-1.0.0.jar 
+ lib/unused-1.0.0.jar
+Main-Class: com.geekcap.javaworld.sparkexample.WordCount
+Created-By: Maven Integration for Eclipse
+
